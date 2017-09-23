@@ -81,14 +81,10 @@ footer {
             color: #222;
         }
     }
-    small {
-        float: left;
-    }
     ul {
-        float: right;
         list-style: none;
         li {
-            float: left;
+            // float: left;
             margin-left: 15px;
         }
     }
