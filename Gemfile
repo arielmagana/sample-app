@@ -33,6 +33,9 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
+gem 'faker', '~> 1.8'
+gem 'will_paginate', '~> 3.1'
+gem 'bootstrap-will_paginate', '~> 1.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
