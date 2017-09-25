@@ -1,0 +1,12 @@
+<% provide(:title, 'All users') %>
+<h1>All users</h1>
+<div class="card">
+    <ul class="list-group list-group-flush">
+        <% @users.each do |user| %>
+            <li class="list-group-item">
+                <%= gravatar_for user, size: 50 %>
+                <%= link_to user.name, user %>
+            </li>
+        <% end %>
+    </ul>
+</div>
