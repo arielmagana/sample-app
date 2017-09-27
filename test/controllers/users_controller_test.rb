@@ -12,7 +12,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "authenticated? should return false for a user with nil digest" do
-    assert_not @user.authenticated?('')
+    assert_not @user.authenticated?(:remember, '')
   end
 
   test "should redirect edit when not logged in" do

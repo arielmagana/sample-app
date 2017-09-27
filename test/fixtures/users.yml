@@ -6,6 +6,11 @@ ariel:
   activated: true
   activated_at: <%= Time.zone.now %>
 
+noactive:
+  name: No Active
+  email: noactive@example.com
+  password_digest: <%= User.digest('password') %>
+
 archer:
   name: Sterling Archer
   email: duchess@example.gov
