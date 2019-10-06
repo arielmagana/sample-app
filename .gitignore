@@ -24,6 +24,7 @@
 
 # Ignore uploaded test images.
 /public/uploads
+/storage
 
 /public/packs
 /public/packs-test

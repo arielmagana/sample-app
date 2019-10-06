@@ -36,7 +36,6 @@ gem 'jquery-rails'
 gem 'faker', '~> 1.8'
 gem 'will_paginate', '~> 3.1'
 gem 'bootstrap-will_paginate', '~> 1.0'
-gem 'carrierwave', '~> 1.2'
 gem 'mini_magick', '~> 4.8'
 gem "webpacker"
 gem 'bootsnap', '~> 1.4', '>= 1.4.4'
